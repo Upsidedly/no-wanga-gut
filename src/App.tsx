@@ -25,7 +25,21 @@ No wanga belly
 (nyamy nyamy)
 No licky licky
 No nyamy nyamy
-(too greedy)`.split('\n');
+(too greedy)
+No licky licky
+No nyamy nyamy
+(soon poison)
+Memba craven dog mi seh
+dem soon lose him bone
+Tiger is a king
+weh sidung pon him throne
+No more inna bablyon
+Tiger wi roam
+Cah mi no nyamy nyamy
+Mi nuh damn licky licky
+Mi nuh wah no one
+come set nuh poison fi me
+huh!`.split('\n');
 
 function generateLightColor() {
     const red = Math.floor(((1 + Math.random()) * 256) / 2);
@@ -46,7 +60,7 @@ function App() {
     return (
         <>
             <div className='App'>
-                <audio src='sound.mp3' autoPlay></audio>
+                <audio src='nowanga.mp3' autoPlay></audio>
                 <h1 id='mainLyric'>{lyric}</h1>
             </div>
             <div id='lyricNavigator'>
