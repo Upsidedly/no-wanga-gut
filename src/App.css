@@ -52,27 +52,15 @@ body { overflow: hidden; }
   #mainLyric {
         font-size: 6vmax;
   }
-
-  #lyricNavigator {
-    gap: 50px;
-  }
 }
 @media only screen and (max-width: 600px){
 	#mainLyric {
         font-size: 6vmax;
   }
-
-  #lyricNavigator {
-    gap: 50px;
-  }
 }
 @media only screen and (max-width: 425px){
 	#mainLyric {
         font-size: 8vmax;
-  }
-
-  #lyricNavigator {
-    gap: 50px;
   }
 }
 
@@ -83,24 +71,21 @@ body { overflow: hidden; }
   flex-direction: row;
   width: 100vw;
   position: fixed;
-  height: 10vh;
-  gap: 100px;
-  margin-top: 90vh;
+  height: 7vh;
+  margin-top: 93vh;
 }
 
 #lyricNavigator > button {
-  width: 100px;
-  height: 30px;
-  font-size: 100%;
+  width: 100%;
+  height: 100%;
+  font-size: 2vmax;
   background-color: rgb(34, 37, 43);
-  border: none;
-  border-radius: 10px;
+  border: 1px rgb(78, 78, 78) solid;
   color: white;
-  font-family: Cabin, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 150ms cubic-bezier(0.165, 0.84, 0.44, 1)
 }
 
 #lyricNavigator > button:active {
-  width: 90px;
-  height: 29px;
-  border-radius: 8px;
+  font-weight: 700;
 }

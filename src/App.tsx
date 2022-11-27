@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import $ from 'jquery';
 import './App.css';
 
-const lyrics = `
+const lyrics = `<->
 No!
 We can't tek di brain people dem
 zeen!
