@@ -54,6 +54,12 @@ function App() {
 
     useEffect(() => {
         $('.App').css('background-color', generateLightColor());
+                const l = $('#mainLyric');
+                if (lyrics[count].split(' ').length >= 6) {
+                    l.css('font-size', '5vmax');
+                } else {
+                    l.css('font-size', '7vmax');
+                }
         setLyric(lyrics[count]);
     }, [count]);
 
